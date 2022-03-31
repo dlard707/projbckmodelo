@@ -15,7 +15,7 @@ const app = require('./config/server')
 const db = require('./config/dbConnection')
 
 // Definindo a porta da aplicação
-const port = process.env.port || 3000 
+const port = process.env.PORT || 3000 
 
 // Rota responsável pela página inicial
 app.get('/', async (req, res) => {
